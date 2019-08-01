@@ -72,7 +72,7 @@ if(isset($_GET['logout'])){
 
 $servername = "localhost";
             $username = "root";
-            $password = "Veni09Sani16";
+            $password = "";
             $database = "bgdom";
             @$conn = mysqli_connect($servername, $username, $password, $database);
             //check if connected
