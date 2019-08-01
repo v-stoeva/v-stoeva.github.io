@@ -66,7 +66,7 @@ if(isset($_POST['username']) AND isset($_POST['pass'])){
 	//connect to MySQL
 		$servername = "localhost";
 		$username = "root";
-		$password = "Veni09Sani16";
+		$password = "";
 		$database = "bgdom";
 		@$conn = mysqli_connect($servername, $username, $password, $database);
 		//check if connected
